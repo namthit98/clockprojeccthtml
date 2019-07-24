@@ -4,16 +4,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Login</title>
+	<title>Cart</title>
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Login</title>
-	<link rel="stylesheet" href="">
 </head>
-<body id="login">
-
+<body id="cart">
+	
 	<div class="alert alert-dark login-and-cart" role="alert">
 		<div class="container-fluid">
 	  		<div class="row">
@@ -157,43 +155,65 @@
 			</div>
 		</div>
 	</header><!-- /header -->
-	
+
+
 
 	<div class="container">
 		<nav aria-label="breadcrumb" >			
 			  <ol class="breadcrumb" style="background-color: white;">
 				    <li class="breadcrumb-item"><a href="#">Home</a></li>
-				    <li class="breadcrumb-item active" aria-current="page">Login</li>
+				    <li class="breadcrumb-item active" aria-current="page">Cart</li>
 			  </ol>		 
 		</nav>
 	</div>
 
+	<div class="table-responsive cart">
+		<div class="container-fluid cart-box">
+			<h2>Your Cart</h2>
+			<p>The information of cart display here</p>            
+			<table class="table table-borderless">
+				<thead>
+					<tr>
+						<th>Product</th>
+						<th>Name</th>
+						<th>Price</th>
+						<th>Quantity</th>
+						<th>Sub-total</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="d-flex flex-wrap"><img src="Img/product-1.png" alt=""></td>
+						<td style="vertical-align: middle;">AMSTERDAM DIAMONDS PIONIER GM-515-3 | HANDMADE GERMAN WATCHES</td>
+						<td style="vertical-align: middle;">5000</td>
+						<td style="vertical-align: middle;"><input class="quantity-of-cart" type="number" name=""></td>
+						<td style="vertical-align: middle;">sdsd</td>
+						<td style="vertical-align: middle;"><button type="button" class="btn btn-danger">X</button></td>
+					</tr>
 
-	<div class="container content-login">
-		<h3>LOGIN</h3>
-		<h5><a href="">Don't have an account?</a></h5>
+					<tr>
+						<td class="d-flex flex-wrap"><img src="Img/product-1.png" alt=""></td>
+						<td style="vertical-align: middle;">AMSTERDAM DIAMONDS PIONIER GM-515-3 | HANDMADE GERMAN WATCHES</td>
+						<td style="vertical-align: middle;">5000</td>
+						<td style="vertical-align: middle;"><input class="quantity-of-cart" type="number" name=""></td>
+						<td style="vertical-align: middle;">sdsd</td>
+						<td style="vertical-align: middle;"><button type="button" class="btn btn-danger">X</button></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h4>TOTAL PRICE: 50000000</h4>
+		</div>
 	</div>
 
 
-	<div class="container form-to-login">
-		<form>
-		  <div class="form-group">
-		    <label for="exampleInputEmail1">Email address</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputPassword1">Password</label>
-		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-		  </div>
-		  <div class="form-check">
-		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-		    <label class="form-check-label" for="exampleCheck1">Remember me</label>
-		  </div>
-		  <button type="submit" class="btn btn-primary btn-block">LOGIN</button>
-		</form>
-	</div>	
+	<div class="pay-to-cart">
+		<div class="container-fluid">
+			<button type="button" class="btn btn-primary btn-block">CHECKOUT</button>
 
+		</div>
+	</div>
 
 
 	<footer class="khoi-footer d-flex justify-content-around">
@@ -247,8 +267,6 @@
 				</div>
 			</div>
 	</footer> <!-- end khoi footer -->
-
-	
 
 
 
