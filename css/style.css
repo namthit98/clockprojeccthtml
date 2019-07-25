@@ -974,7 +974,7 @@ html {
 
 /* end css slide-------- */
 
-#product-detail .content-box-res{
+#product-detail .content-box-res-to-buy{
 	margin-top: 100px;
 	margin-left: 100px;
 	line-height: 2;
@@ -985,28 +985,28 @@ html {
 	margin-top: 30px;
 }
 
-#product-detail .content-box-res .input{
+#product-detail .content-box-res-to-buy .input{
 	margin-left: 50px;
 }
 
-#product-detail .add-to-cart-box{
+#product-detail .add-to-cart-box-to-buy{
 	margin-top: 50px;
 }
 
-#product-detail .content-box-res .details-product{
+#product-detail .content-box-res-to-buy .details-product{
 	margin-top: 20px;
 }
 
-#product-detail .content-box-res .details-product span{
+#product-detail .content-box-res-to-buy .details-product span{
 	text-transform: capitalize;
 }
 
-#product-detail .content-box-res .details-product span:hover .fa{
+#product-detail .content-box-res-to-buy .details-product span:hover .fa{
 	transform: translateX(5px);
 	transition: 0.4s ease-out;
 }
 
-#product-detail .add-to-cart-box a.add-to-cart-btn {
+#product-detail .add-to-cart-box-two a.add-to-cart-btn-two {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -1014,21 +1014,22 @@ html {
     padding: 10px 125px;
   	display: block;
   	text-align: center;
+  	margin: auto;
     color: white;
 }
 
-#product-detail .add-to-cart-box a.add-to-cart-btn:hover{
+#product-detail .add-to-cart-box-two a.add-to-cart-btn-two:hover{
 	text-decoration: none;
 }
 
 @media only screen and (max-width: 999px){
-	#product-detail .content-box-res{
+	#product-detail .content-box-res-to-buy{
 		line-height: 2;
 		padding: 10px 10px;
 		margin: 0px 10px;
 	}
 
-	#product-detail .add-to-cart-box a.add-to-cart-btn{
+	#product-detail .add-to-cart-box-two a.add-to-cart-btn-two{
 		 font-size: 12px;
 		 padding: 10px 50px;
 		 width: 80vw;
@@ -1036,20 +1037,20 @@ html {
 }
 
 @media only screen and (max-width: 876px){
-	#product-detail .content-box-res{
+	#product-detail .content-box-res-to-buy{
 		padding: 10px 10px;
 		margin: 0px 10px;
 		line-height: 2;
 	}
 
-	#product-detail .add-to-cart-box a.add-to-cart-btn{
+	#product-detail .add-to-cart-box-two a.add-to-cart-btn-two{
 		 font-size: 12px;
 		 padding: 10px 50px;
 	}
 }
 
 @media only screen and (max-width: 576px){
-	#product-detail .content-box-res{
+	#product-detail .content-box-res-to-buy{
 		padding: 10px 10px;
 		margin: 0px 10px;
 		line-height: 2;
