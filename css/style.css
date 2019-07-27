@@ -1026,7 +1026,8 @@ html {
 	#product-detail .content-box-res-to-buy{
 		line-height: 2;
 		padding: 10px 10px;
-		margin: 0px 10px;
+		text-align: left;
+		margin-top: -60px !important;
 	}
 
 	#product-detail .add-to-cart-box-two a.add-to-cart-btn-two{
@@ -1034,6 +1035,19 @@ html {
 		 padding: 10px 50px;
 		 width: 80vw;
 	}
+
+	#product-detail .content-box-res-to-buy h4{
+		margin-left: 31px;
+	}
+
+	#product-detail .content-box-res-to-buy s{
+		margin-left: 31px;
+	}
+
+	#product-detail .content-box-res-to-buy .quantity{
+		margin-left: 31px;
+	}
+
 }
 
 @media only screen and (max-width: 876px){
