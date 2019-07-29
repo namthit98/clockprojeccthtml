@@ -1366,6 +1366,10 @@ html {
 }
 
 @media only screen and (max-width: 768px){
+	#contact-us .contact{
+		margin: 0px 20px;
+	}
+
 	#contact-us .chat-with-us{
 		margin-top: 35px;
 		transform: translateX(-15px);
