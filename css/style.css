@@ -1306,3 +1306,99 @@ html {
 	}
 }
 
+
+/* ------------------------------------------------------------CONTACT US-------------------------------------------------------------------- */
+
+
+#contact-us .form-contact-box{
+	width: 80vw;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+#contact-us .contact h4{
+	letter-spacing: 2px;
+}
+
+#contact-us .contact .form-contact{
+	margin-bottom: 25px;
+}
+
+#contact-us .chat-with-us{
+	background-color: #F5F5F5;
+	width: 100vw;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-bottom: 200px;
+}
+
+#contact-us .chat-with-us .mess-on-face{
+	margin: 30px 0px;
+}
+
+#contact-us .chat-with-us .mess-on-face-btn{
+	color: black;
+	border: 1px solid black;
+	font-size: 13px;
+	padding: 10px 15px;
+}
+
+#contact-us .chat-with-us .mess-on-face-btn:hover{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	transition: 0.4s;
+}
+
+#contact-us .chat-with-us .call-contact{
+	margin-top: 30px;
+}
+
+#contact-us .chat-with-us .call-contact p{
+	font-size: 12px;
+	color: #795555;
+}
+
+@media only screen and (max-width: 1200px){
+	#contact-us .form-contact-box{
+		width: 100vw;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#contact-us .chat-with-us{
+		margin-top: 35px;
+		transform: translateX(-15px);
+	}
+}
+
+
+/* -----------------------------------------------------------OUR STORY-------------------------------------------------------------------- */
+
+#our-story .our-story{
+	width: 80vw;
+	padding: 50px 0px;
+}
+
+#our-story .our-story .card{
+	border-radius: 0px;
+	outline: none;
+}
+
+#our-story .our-story .card .card-img-top{
+	border-radius: 0px;	
+}
+
+#our-story .our-story .content-story h5{
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px){
+	#our-story .our-story .content-story p{
+		font-size: 14px;
+	}
+}
+
+
+
+
