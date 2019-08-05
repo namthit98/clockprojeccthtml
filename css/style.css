@@ -340,7 +340,7 @@ html {
 	.header .my-container{
 		width: 100%;
 	}
-		#homepage .header .nav-bar li a{
+		.header .nav-bar li a{
 		font-size: 15px;
 		transition: 0.4s;
 	}
@@ -356,6 +356,7 @@ html {
 	.drop-down-for-our-watches .theroma{
 		justify-content: space-between;
 	}
+
 }
 
 @media only screen and (max-width: 768px){
@@ -586,6 +587,16 @@ html {
 	}
 }
 
+@media only screen and (max-width: 576px){
+	.hot-product .product-title h3{
+		top: 12px;
+		font-size: 16px;
+		width: 170px;
+		margin: auto
+	}
+}
+
+
 
 
 /* end css hot product */
@@ -685,6 +696,17 @@ html {
 	#homepage .feture-colect{
 		width: 100vw;
 		padding: 0px 25px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 576px){
+	#homepage .feture-colect .colect-title h3{
+		top: 12px;
+		font-size: 16px;
+		width: 200px;
+		margin: auto
 	}
 }
 
